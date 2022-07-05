@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "chat-app",
+    "name": "syndix-chat",
     "builds": [
        { "src": "index.js", "use": "@vercel/node" }
     ],
