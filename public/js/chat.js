@@ -68,7 +68,7 @@ messageFormBtn.addEventListener('click',(e)=>{
         messageFormBtn.removeAttribute('disabled')
         if(error)
         {
-         return   console.log(error)
+         return   alert(error)
         }
         console.log('The message has been delivered')
     })
